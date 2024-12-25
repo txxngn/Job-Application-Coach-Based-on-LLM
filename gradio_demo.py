@@ -1,3 +1,18 @@
+"""
+First create a Python virtual environment:
+    pip install virtualenv 
+    virtualenv my_env # create a virtual environment named my_env
+    source my_env/bin/activate # activate my_env
+
+
+# installing Gradio in my_env
+    python3.11 -m pip install gradio==4.44.1 ibm-watson-machine-learning==1.0.349 email-validator==2.1.1 numpy==1.23.5 pandas==1.5.3
+
+"""
+
+
+
+
 import gradio as gr
 
 """
