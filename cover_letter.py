@@ -14,7 +14,7 @@ my_credentials = {
 # Generation parameters
 gen_parms = {
     "max_new_tokens": 512,  # Adjust as needed for the length of the cover letter
-    "temperature": 0.7  # Adjust for creativity
+    "temperature": 0.7  # Adjust for creativity, controls randomness of response. The higher the temperature, the more randomness
 }
 project_id = "skills-network"
 space_id = None
