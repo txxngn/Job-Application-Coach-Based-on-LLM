@@ -35,8 +35,8 @@ def polish_resume(position_name, resume_content, polish_prompt=""):
         prompt_use = f"Given the resume content: '{resume_content}', polish it based on the following instructions: {polish_prompt} for the {position_name} position."
     else:
         prompt_use = f"Suggest improvements for the following resume content: '{resume_content}' to better align with the requirements and expectations of a {position_name} position. Return the polished version, highlighting necessary adjustments for clarity, relevance, and impact in relation to the targeted role."
-    #2 cai prompt_use nay la minh cài vào trước để result được chính xác hơn
-    #Cái model sẽ biết phải làm gì, nếu user có điền vào ô polish_prompt thì prompt_use
+    #2 cai prompt_use nay la minh cài vào trước để result được chính xác hơn, modify được tùy mình
+    #cái model sẽ biết phải làm gì, nếu user có điền vào ô polish_prompt thì prompt_use
     #đầu tiên sẽ được applied, prompt_use sẽ prompt để kêu model phải làm gì
 
 
